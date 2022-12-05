@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './views/Home';
 import Header from './layout/Header';
 import Main from './layout/Main';
 import Footer from './layout/Footer';
 import { VStack, Spacer } from '@chakra-ui/react';
 import { Nfts } from './views/Nfts';
+import Home from './views/Home';
 
 function App() {
   return (
